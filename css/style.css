@@ -1829,5 +1829,320 @@ footer .ff .f_in .f_dis{
 }
 
 @media screen and (max-width:375px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .wrap{
+        width: 44px;
+    }
+    .header{
+        justify-content: space-between;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header ul{
+        display: none;
+    }
+    .header li{
+        margin-right: 0px;
+    }
+    .header .logo{
+        width: 10%;
+        margin-right: 0;
+    }
+    .menu-btn-mobile{
+        display: block;
+        position: relative;
+        width: 25px;
+        height: 14px;
+    }
+
+    .menu-btn-mobile span{
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #7C51A1;
+        cursor: pointer;
+       
+    }
+     .menu-btn-mobile span:nth-child(2){
+        top: 50%;
+    }
+    .menu-btn-mobile span:nth-child(3){
+        top: 100%;
+    }
+    .menu-btn-mobile span :active{
+
+    }
     
+
+
+    .menu-box-mobile{
+        display: block;
+        background-color: rgb(255, 255, 255);
+        opacity: 80%;
+        width: 300px;
+        height: 700px;
+        margin-left: 200px;
+        z-index: 1;
+        position: absolute;
+        right: -300px;
+        transition: 0.3s;
+    }
+    .menu-box-mobile.on{
+        right: 0;
+    }
+    .menu-box-mobile a{
+        padding: 20px;
+        font-weight: 600;
+        color: #222222;
+        border-bottom: #7C51A1 solid 2px;
+        z-index: 999;
+    }
+    /* .menu-box-mobile .dimmed {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: rgba(0,0,0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+    } */
+
+    .search{
+        display: none;
+    }
+    
+    .banner .img1{
+        display: none;
+    }
+    .banner{
+        height: 100%;
+        position: relative;
+        background-image: url(../img/메인상단_모바일.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .insta_box{
+        display: none;
+    }
+    .what_menu{
+
+    }
+    .what_menu .slide_wrap{
+      
+    }
+    
+    .what_menu .slide img{
+        background-size: 200px;
+       padding: 90px;
+       margin-right: -48px;
+    }
+    .purple_order{
+        height: 290px;
+    }
+    .purple_order .po-txt {
+        height: 120%;
+    }
+    .purple_order .po-txt p{
+        display: flex;
+        font-size: 23px;
+        z-index: 999;
+    }
+    .purple_order .po-txt h3{
+        font-size: 23px;
+        z-index: 999;
+    }
+    .purple_order .po-txt-inner2{
+        display: none;
+    }
+    .purple_order .po{
+        background-size: 10px;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    
+    }
+    .box_new1 .box_wrap .image_area {
+        width: 35%;
+        margin: 0 50px 0 0px;
+    }
+
+
+ 
+    .box_new1 .box_wrap div{
+        justify-content: center;
+    }
+    .box_new1 .box_wrap{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        padding: 55px 0;
+        
+    }
+
+    .what_menu h2 {
+        margin-bottom: -25px;
+    }
+    .what_menu .slide img {
+        background-size: 200px;
+        padding: 65px;
+        margin-right: -48px;
+        margin-left: -12px;
+    }
+    .box_new1 .box_wrap .image_area{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+    .what_menu .slide_wrap p {
+        margin-top: -30px;
+    }
+    /* .box_new1 .box_wrap{
+        width: 500px;
+    } */
+
+    .detail-btn{
+        display: none;
+    }
+    .box_new1 p, .box_new1 span{
+        display: none;
+    }
+    .box_new1 .info_areas{
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .box-txt1 h2{
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    /* 2번째 */
+    .box2_n{
+        display: none;
+    }
+
+    .box2_n_m{
+        display: block;
+        background-color: #b7aca3;
+    }
+
+    .box2_n_m .box_wrap div{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .box2_n_m .box_wrap{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        padding: 55px 0;
+    }
+
+    .box2_n_m p, 
+    .box2_n_m span{
+        display: none;
+    }
+    .box2_n_m .box_wrap .image_area{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    .box2_n_m h2{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .box2_n_m .box_wrap .info_area, .box2_n .box_wrap .image_area{
+        margin: 0;
+    }
+
+    /* 3번째 */
+    .box1 .box_box{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        padding: 55px 0;
+    }
+
+    .box1 .box_box span{
+        display: none;
+    }
+    .box1 .box_box .box-img{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    .box1 h2{
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+
+    .banner2.bg_fullwidth{
+        background-image: url(../img/bannermbll.png);
+        width: 500px;
+    }
+    .banner2.bg_fullwidth .wrap h3,
+    .banner2.bg_fullwidth .wrap p{
+        display: none;
+    }
+
+    .banner3 .bannerco .banner-txt1{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner3 .bannerco .banner-txt1 .txt {
+        position: absolute;
+        z-index: 2;
+        padding: 0;
+    }
+    
+    
+    .banner4-txt{
+        position: static;
+        margin: 0 42px;
+    }
+    .banner4 .banner4-box .banner4-txt2{
+        position: absolute;
+        margin: 0px 62px;
+        /* 포지션앱솔루트사용 X 하고 수정하기 */
+    }
+    .banner4 .banner4-txt h1 {
+        font-size: 42px;
+        margin-bottom: 35px;
+    }
+    .banner3_img {
+        margin: 0px 62px;
+    }
+    .banner3 h2 {
+        margin-top: 15px;
+    }
+    .banner-txt1 .txt {
+        margin: 0 62px;
+    }
+
+    footer .ff{
+        display: none;
+    }
+
+    footer .f_in2{
+        padding: 30px;
+    }
+    footer p{
+        margin: 10px;
+    }
 }
