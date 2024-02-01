@@ -1599,7 +1599,6 @@ footer .ff .f_in .f_dis{
         display: none;
     }
     .banner{
-        height: 475px;
         position: relative;
         background-image: url(../img/메인상단_모바일.jpg);
         background-size: 100%;
@@ -1927,17 +1926,11 @@ footer .ff .f_in .f_dis{
     .insta_box{
         display: none;
     }
-    .what_menu{
-
-    }
-    .what_menu .slide_wrap{
-      
-    }
-    
-    .what_menu .slide img{
+    .what_menu .slide img {
         background-size: 200px;
-       padding: 90px;
-       margin-right: -48px;
+        padding: 100px;
+        margin-right: -45px;
+        margin-left: -69px;
     }
     .purple_order{
         height: 290px;
@@ -1947,11 +1940,11 @@ footer .ff .f_in .f_dis{
     }
     .purple_order .po-txt p{
         display: flex;
-        font-size: 23px;
+        font-size: 16px;
         z-index: 999;
     }
     .purple_order .po-txt h3{
-        font-size: 23px;
+        font-size: 20px;
         z-index: 999;
     }
     .purple_order .po-txt-inner2{
@@ -1985,14 +1978,9 @@ footer .ff .f_in .f_dis{
     }
 
     .what_menu h2 {
-        margin-bottom: -25px;
+        margin-bottom: -50px;
     }
-    .what_menu .slide img {
-        background-size: 200px;
-        padding: 65px;
-        margin-right: -48px;
-        margin-left: -12px;
-    }
+  
     .box_new1 .box_wrap .image_area{
         display: flex;
         align-items: center;
@@ -2003,6 +1991,7 @@ footer .ff .f_in .f_dis{
 
     .what_menu .slide_wrap p {
         margin-top: -30px;
+        margin-left: -100px;
     }
     /* .box_new1 .box_wrap{
         width: 500px;
@@ -2058,7 +2047,7 @@ footer .ff .f_in .f_dis{
         width: 300px;
         height: 300px;
     }
-    .box2_n_m h2{
+    .box2_n_m  .box-txt2 h2{
         font-size: 15px;
         margin: 10px 0;
     }
@@ -2088,7 +2077,11 @@ footer .ff .f_in .f_dis{
         font-size: 15px;
         margin: 0 auto;
     }
-
+    .banner3 .bannerco .banner3_img {
+        width: 23%;
+        position: relative;
+        z-index: 2;
+    }
 
     .banner2.bg_fullwidth{
         background-image: url(../img/bannermbll.png);
@@ -2104,11 +2097,15 @@ footer .ff .f_in .f_dis{
         margin: 0;
         padding: 0;
     }
+    .banner3  h2{
+        font-size: 30px;
+    }
 
     .banner3 .bannerco .banner-txt1 .txt {
         position: absolute;
         z-index: 2;
         padding: 0;
+        font-size: 11px;
     }
     
     
@@ -2126,7 +2123,7 @@ footer .ff .f_in .f_dis{
         margin-bottom: 35px;
     }
     .banner3_img {
-        margin: 0px 62px;
+        margin-left: 70px;
     }
     .banner3 h2 {
         margin-top: 15px;
