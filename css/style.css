@@ -764,7 +764,7 @@ footer .ff .f_in .f_dis{
         height: 1000px;
         margin-left: 200px;
         z-index: 1;
-        position: absolute;
+        position: fixed;
         right: -300px;
         transition: 0.3s;
     }
@@ -907,7 +907,7 @@ footer .ff .f_in .f_dis{
         height: 1000px;
         margin-left: 200px;
         z-index: 1;
-        position: absolute;
+        position: fixed;
         right: -300px;
         transition: 0.3s;
     }
@@ -1570,7 +1570,7 @@ footer .ff .f_in .f_dis{
         height: 700px;
         margin-left: 200px;
         z-index: 1;
-        position: absolute;
+        position: fixed;
         right: -300px;
         transition: 0.3s;
     }
